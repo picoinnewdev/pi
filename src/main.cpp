@@ -67,7 +67,7 @@ map<uint256, map<uint256, CDataStream*> > mapOrphanTransactionsByPrev;
 CScript COINBASE_FLAGS;
 
 const string strMessageMagic = "PI Signed Message:\n";
-
+static const int64 nGenBlockHash = 0.05969026 * COIN;
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
 
@@ -1247,7 +1247,6 @@ uint256 static GetOrphanRoot(const CBlockHeader* pblock)
 
 static const int64 nStartSubsidy = 0.00003141 * COIN;// 3.14159x10^-5
 //static const int64 nMinSubsidy = 1 * COIN;
-static const int64 nGenBlockHash = .03141592 * COIN;
 int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = nStartSubsidy;

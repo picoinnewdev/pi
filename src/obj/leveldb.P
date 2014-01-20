@@ -1,24 +1,24 @@
 obj/leveldb.o: leveldb.cpp leveldb.h serialize.h allocators.h version.h \
- clientversion.h /home/carlos/pi/src/leveldb/include/leveldb/db.h \
- /home/carlos/pi/src/leveldb/include/leveldb/iterator.h \
- /home/carlos/pi/src/leveldb/include/leveldb/slice.h \
- /home/carlos/pi/src/leveldb/include/leveldb/status.h \
- /home/carlos/pi/src/leveldb/include/leveldb/options.h \
- /home/carlos/pi/src/leveldb/include/leveldb/write_batch.h util.h \
+ clientversion.h /home/templar77/picoin/src/leveldb/include/leveldb/db.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/iterator.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/slice.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/status.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/options.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/write_batch.h util.h \
  uint256.h netbase.h compat.h \
- /home/carlos/pi/src/leveldb/include/leveldb/env.h \
- /home/carlos/pi/src/leveldb/include/leveldb/cache.h \
- /home/carlos/pi/src/leveldb/include/leveldb/filter_policy.h \
- /home/carlos/pi/src/leveldb/helpers/memenv/memenv.h
+ /home/templar77/picoin/src/leveldb/include/leveldb/env.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/cache.h \
+ /home/templar77/picoin/src/leveldb/include/leveldb/filter_policy.h \
+ /home/templar77/picoin/src/leveldb/helpers/memenv/memenv.h
 leveldb.cpp leveldb.h serialize.h allocators.h version.h :
- clientversion.h /home/carlos/pi/src/leveldb/include/leveldb/db.h :
- /home/carlos/pi/src/leveldb/include/leveldb/iterator.h :
- /home/carlos/pi/src/leveldb/include/leveldb/slice.h :
- /home/carlos/pi/src/leveldb/include/leveldb/status.h :
- /home/carlos/pi/src/leveldb/include/leveldb/options.h :
- /home/carlos/pi/src/leveldb/include/leveldb/write_batch.h util.h :
+ clientversion.h /home/templar77/picoin/src/leveldb/include/leveldb/db.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/iterator.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/slice.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/status.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/options.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/write_batch.h util.h :
  uint256.h netbase.h compat.h :
- /home/carlos/pi/src/leveldb/include/leveldb/env.h :
- /home/carlos/pi/src/leveldb/include/leveldb/cache.h :
- /home/carlos/pi/src/leveldb/include/leveldb/filter_policy.h :
- /home/carlos/pi/src/leveldb/helpers/memenv/memenv.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/env.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/cache.h :
+ /home/templar77/picoin/src/leveldb/include/leveldb/filter_policy.h :
+ /home/templar77/picoin/src/leveldb/helpers/memenv/memenv.h :
